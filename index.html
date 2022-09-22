@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JMedia</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Nunito+Sans:ital,wght@0,200;0,400;0,600;0,700;0,800;1,300&family=Ubuntu:wght@400;500&display=swap"
+    rel="stylesheet">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <section id="title">
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light" style="padding-bottom: 60px;">
+        <a class="navbar-brand" aria-current="page" href="#"><img src="images/logo.png" alt="" class="logo">Media</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#features">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about-us">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact-us">Contact</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-outline-dark menu-button">Login</button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-primary">Register</button>
+              </li>
+            </ul>
+          
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 box-1">
+          <h1 class="big-heading">Online Security Trusted by Millions.</h1>
+          <h4>We make a concerted effort to understand your business to then better serve you with our
+            customized offerings.</h4>
+          <button type="button" class="btn btn-primary btn-lg get-started-button">Get Started <i
+              class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-img" src="images/security-banner1.png" alt="security-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container">
+
+      <h2 class="big-heading">Our Services</h2>
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-shield-virus fa-4x"></i>
+          <!-- <i class="icon fa-solid fa-circle-check fa-4x"></i> -->
+          <h3>Cyber Security</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eius?</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-clipboard-check fa-4x"></i>
+          <h3>Dynamic Testing</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, veritatis.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-atom fa-4x"></i>
+          <h3>Functionality</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Biometrics -->
+
+  <section id="biometrics">
+    <div class="container">
+
+      <h2>Face Recognition</h2>
+      <img src="images/biometric-photo.jpg" alt="" class="biometric-img">
+      <div>
+        <button type="button" class="btn btn-primary btn-md biometric-button">Upload</button>
+        <button type="button" class="btn btn-primary btn-md biometric-button" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Verify</button>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Verification Check</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="images/trophy.png" alt="">
+            <h3>Congratulations, You are Matched</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div class="container">
+      <div class="testimonials-heading">
+        <h2>Testimonials</h2>
+      </div>
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false" data-bs-interval="1000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3 class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nulla
+              laborum natus voluptatum quod debitis architecto omnis itaque error fuga.</h3>
+            <img class="testimonials-image" src="images/tstm2.jpg" alt="dog-profile">
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h3 class="testimonial-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad mollitia accusamus
+              quibusdam architecto voluptatibus consequatur provident neque possimus nulla id.</h3>
+            <img class="testimonials-image" src="images/tstm3.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <i class="icon fa-solid fa-angle-left fa-2x"></i>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <i class="icon fa-solid fa-angle-right fa-2x"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+    <h2 class="pricing-text">Our Plans</h2>
+    <p>Simple and affordable price plans.</p>
+
+    <div class="row">
+      <div class="pricing-item col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Beginner</h3>
+          </div>
+          <div class="card-body d-grid gap-2">
+            <h2 class="pricing-text">Free</h2>
+            <p>Speed Optimization</p>
+            <p>Latest technologies</p>
+            <p>High Performance</p>
+            <p>Code-Cleaning</p>
+            <button type="button" class="btn btn-lg btn-primary">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-item col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Standard</h3>
+          </div>
+          <div class="card-body d-grid gap-2">
+            <h2 class="pricing-text">$49 / mo</h2>
+            <p>Speed Optimization</p>
+            <p>Latest technologies</p>
+            <p>High Performance</p>
+            <p>Code-Cleaning</p>
+            <button type="button" class="btn btn-lg btn-primary">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-item col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Intermediate</h3>
+          </div>
+          <div class="card-body d-grid gap-2">
+            <h2 class="pricing-text">$99 / mo</h2>
+            <p>Speed Optimization</p>
+            <p>Latest technologies</p>
+            <p>High Performance</p>
+            <p>Code-Cleaning</p>
+            <button type="button" class="btn btn-lg btn-primary">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Our Team -->
+  <section id="Our-team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Our Professional Team</h2>
+          <p>Lorem ipsum dolor sit amet consectetuer
+            adipiscing elitenean commodo
+            ligula eget dolorenean massa.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+
+          <div class="about-team">
+            <div class="icons-rounded-box">
+              <img src="images/about-team-img1.png" alt="" class="img-fluid teams-img-border">
+            </div>
+          </div>
+          <h4>Eric T. Parker</h4>
+          <p class="about-team-title">Network Security</p>
+          <p class="teams-section-p">Lonec pede justo, fringilla vel, aliquet nec.
+          </p>
+          <div class="social-icons">
+            <i class="fa-brands fa-square-facebook  social-networks"></i>
+            <i class="fa-brands fa-square-twitter social-networks"></i>
+            <i class="fa-brands fa-linkedin social-networks"></i>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="about-teams-inner aos-init aos-animate" data-aos="fade-up">
+            <div class="about-team">
+              <div class="icons-rounded-box">
+                <figure class="mb-0"><img src="images/about-team-img2.png" alt="" class="img-fluid teams-img-border">
+                </figure>
+              </div>
+            </div>
+            <h4 class="about-team-members-h4">Shira Rubinoff</h4>
+            <p class="about-team-title">Security Executive</p>
+            <p class="teams-section-p">Donec pede justo, fringilla vel, aliquet.</p>
+
+            <div class="social-icons">
+              <i class="fa-brands fa-square-facebook  social-networks"></i>
+              <i class="fa-brands fa-square-twitter social-networks"></i>
+              <i class="fa-brands fa-linkedin social-networks"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="about-teams-inner aos-init aos-animate" data-aos="fade-up">
+            <div class="about-team">
+              <div class="icons-rounded-box">
+                <figure class="mb-0"><img src="images/about-team-img3.png" alt="" class="img-fluid teams-img-border">
+                </figure>
+              </div>
+            </div>
+            <h4 class="about-team-members-h4">Steve Morgan</h4>
+            <p class="about-team-title">Security Technologist</p>
+            <p class="teams-section-p">Ronec pede justo, fringilla vel, aliquet.</p>
+            <div class="social-icons">
+              <i class="fa-brands fa-square-facebook  social-networks"></i>
+              <i class="fa-brands fa-square-twitter social-networks"></i>
+              <i class="fa-brands fa-linkedin social-networks"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- About-us -->
+  <section id="about-us">
+
+    <div class="container">
+      <div class="about-heading">
+        <h2>About Us</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="about-text">
+
+            <h3>24/7 Cyber Security Operation Center</h3>
+            <p>Lorem ipsum dolor sit amet consectetuer adipiscing
+              elitenean commodoligula egetmassa.</p>
+            <ul class="list-unstyled">
+              <li><i class="fa-solid fa-shield-virus"></i><span class="about-list">SIEM Threat Detection</span></li>
+              <li><i class="fa-solid fa-shield-virus"></i><span class="about-list">Content Delivery Network</span></li>
+              <li><i class="fa-solid fa-shield-virus"></i><span class="about-list">24/7 Hours services</span></li>
+              <li><i class="fa-solid fa-shield-virus"></i><span class="about-list">Website Security Services</span></li>
+              <li><i class="fa-solid fa-shield-virus"></i><span class="about-list">Security Management</span></li>
+              <li><i class="fa-solid fa-shield-virus"></i><span class="about-list">Instant Malware Removal</span></li>
+              <li><i class="fa-solid fa-shield-virus"></i><span class="about-list">Website Hack Repair</span></li>
+              <li><i class="fa-solid fa-shield-virus"></i><span class="about-list">Instant Malware Removal</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="images/about-us-page-right-img.png" alt="" class="about-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact-us -->
+
+  <section id="contact-us">
+
+    <div class="container">
+      <h2>Contact Us</h2>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <i class="icon fa-solid fa-location-dot fa-4x"></i>
+            <h5>Address</h5>
+            <p>NayaBazaar, Katmandu, Nepal</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <i class="icon fa-solid fa-envelope fa-4x"></i>
+            <h5>Email</h5>
+            <p>contact@bbbootstrap.com</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <i class="icon fa-solid fa-phone fa-4x"></i>
+            <h5>Phone</h5>
+            <p>9854959754</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="container-fluid">
+      <i class="footer-icon fa-brands fa-twitter"></i>
+      <i class="footer-icon fa-brands fa-facebook"></i>
+      <i class="footer-icon fa-brands fa-instagram"></i>
+      <i class="footer-icon fa-solid fa-envelope"></i>
+      <p>© Copyright JMedia</p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
